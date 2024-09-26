@@ -1,0 +1,201 @@
+{
+    "actions": [
+        {
+            "code": [
+                {
+                    "file": "cookiesTools__importFromNetscapeCookies_code.js",
+                    "name": "cookiesTools__importFromNetscapeCookies_code"
+                }
+            ],
+            "description": {
+                "en": "Import from netscape format",
+                "ru": "Импорт из netscape формата"
+            },
+            "interface": "cookiesTools__importFromNetscapeCookies_interface.js",
+            "is_element": false,
+            "name": "cookiesTools__importFromNetscapeCookies",
+            "select": "cookiesTools__importFromNetscapeCookies_select.js",
+            "template": "{{importCookies}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "cookiesTools__importFromJ2TeamCookies_code.js",
+                    "name": "cookiesTools__importFromJ2TeamCookies_code"
+                }
+            ],
+            "description": {
+                "en": "Import from the J2TEAM extension",
+                "ru": "Импорт из расширения J2TEAM"
+            },
+            "interface": "cookiesTools__importFromJ2TeamCookies_interface.js",
+            "is_element": false,
+            "name": "cookiesTools__importFromJ2TeamCookies",
+            "select": "cookiesTools__importFromJ2TeamCookies_select.js",
+            "template": "{{importCookies}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "cookiesTools__importFromEditThisCookies_code.js",
+                    "name": "cookiesTools__importFromEditThisCookies_code"
+                }
+            ],
+            "description": {
+                "en": "Import from the EditThisCookies extension",
+                "ru": "Импорт из расширения EditThisCookies"
+            },
+            "interface": "cookiesTools__importFromEditThisCookies_interface.js",
+            "is_element": false,
+            "name": "cookiesTools__importFromEditThisCookies",
+            "select": "cookiesTools__importFromEditThisCookies_select.js",
+            "template": "{{importCookies}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "cookiesTools__exportToNetscapeCookies_code.js",
+                    "name": "cookiesTools__exportToNetscapeCookies_code"
+                }
+            ],
+            "description": {
+                "en": "Export to netscape format",
+                "ru": "Экспорт в netscape формат"
+            },
+            "interface": "cookiesTools__exportToNetscapeCookies_interface.js",
+            "is_element": false,
+            "name": "cookiesTools__exportToNetscapeCookies",
+            "select": "cookiesTools__exportToNetscapeCookies_select.js",
+            "template": "{{basCookies}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "cookiesTools__exportToJ2TeamCookies_code.js",
+                    "name": "cookiesTools__exportToJ2TeamCookies_code"
+                }
+            ],
+            "description": {
+                "en": "Export to the J2Team extension",
+                "ru": "Экспорт в расширение J2Team"
+            },
+            "interface": "cookiesTools__exportToJ2TeamCookies_interface.js",
+            "is_element": false,
+            "name": "cookiesTools__exportToJ2TeamCookies",
+            "select": "cookiesTools__exportToJ2TeamCookies_select.js",
+            "template": "{{basCookies}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "cookiesTools__exportToEditThisCookies_code.js",
+                    "name": "cookiesTools__exportToEditThisCookies_code"
+                }
+            ],
+            "description": {
+                "en": "Export to the EditThisCookies extension",
+                "ru": "Экспорт в расширение EditThisCookies"
+            },
+            "interface": "cookiesTools__exportToEditThisCookies_interface.js",
+            "is_element": false,
+            "name": "cookiesTools__exportToEditThisCookies",
+            "select": "cookiesTools__exportToEditThisCookies_select.js",
+            "template": "{{basCookies}}"
+        },
+        {
+          "code": [
+              {
+                  "file": "cookiesTools__concatCookies_code.js",
+                  "name": "cookiesTools__concatCookies_code"
+              }
+          ],
+          "description": {
+              "en": "Concatenation BAS cookies",
+              "ru": "Объединить куки BAS"
+          },
+          "interface": "cookiesTools__concatCookies_interface.js",
+          "is_element": false,
+          "name": "cookiesTools__concatCookies",
+          "select": "cookiesTools__concatCookies_select.js",
+          "template": "{{cookies1}}-{{cookies2}}"
+      },
+      {
+          "code": [
+              {
+                  "file": "cookiesTools__getCookieValue_code.js",
+                  "name": "cookiesTools__getCookieValue_code"
+              }
+          ],
+          "description": {
+              "en": "Get value",
+              "ru": "Получить значение"
+          },
+          "interface": "cookiesTools__getCookieValue_interface.js",
+          "is_element": false,
+          "name": "cookiesTools__getCookieValue",
+          "select": "cookiesTools__getCookieValue_select.js",
+          "template": "{{basCookies}}"
+      },
+      {
+          "code": [
+              {
+                  "file": "cookiesTools__pushCookie_code.js",
+                  "name": "cookiesTools__pushCookie_code"
+              }
+          ],
+          "description": {
+              "en": "Add/change cookie",
+              "ru": "Добавить/изменить куки"
+          },
+          "interface": "cookiesTools__pushCookie_interface.js",
+          "is_element": false,
+          "name": "cookiesTools__pushCookie",
+          "select": "cookiesTools__pushCookie_select.js",
+          "template": "{{basCookies}}"
+      }
+    ],
+    "api_version": 1,
+    "autogenerated_functions": [
+        "_importFromNetscapeCookies",
+        "_importFromJ2TeamCookies",
+        "_importFromEditThisCookies",
+        "_exportToNetscapeCookies",
+        "_exportToJ2TeamCookies",
+        "_exportToEditThisCookies",
+        "_concatCookies",
+        "_getCookieValue",
+        "_pushCookie"
+    ],
+    "browser": [
+    ],
+    "depends": [
+    ],
+    "description": "cookies tools",
+    "description_small": {
+        "en": "cookies tools",
+        "ru": "cookies tools"
+    },
+    "developer_email": "",
+    "developer_name": "userTrue",
+    "developer_site": "",
+    "embeddeddata": [
+    ],
+    "engine": [
+        "engine.js"
+    ],
+    "icon": "icon.png",
+    "info": {
+        "en": "Import/Export of cookies",
+        "ru": "Импорт/Экспорт куки"
+    },
+    "is_autogenerated": true,
+    "languages": [
+    ],
+    "localize": {
+    },
+    "major_version": 1,
+    "minor_version": 1,
+    "modules": [
+    ],
+    "name": "cookiesTools"
+}
